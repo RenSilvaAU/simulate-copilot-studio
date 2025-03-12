@@ -1,0 +1,27 @@
+
+
+{
+    "name": "Notebooks (Py 3.12)",
+    // "image": "mcr.microsoft.com/devcontainers/python:3.12-bullseye",
+    "image": "mcr.microsoft.com/azureml/curated/azure-ai-studio-development:latest",
+    "hostRequirements": {
+      "cpus": 2
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2":{}
+
+    },
+    "updateContentCommand": "pip install --no-warn-script-location -r requirements.txt",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-azuretools.azure-dev",
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "github.copilot"
+        ]
+        
+      }
+    }
+  }
+  

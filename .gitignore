@@ -1,0 +1,17 @@
+<!-- filepath: /workspaces/simulate-cps/.gitignore -->
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore distribution/build files
+build/
+dist/
+*.egg-info/
